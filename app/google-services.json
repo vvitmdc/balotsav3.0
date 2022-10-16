@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "541930104889",
+    "firebase_url": "https://balotsav-9a271.firebaseio.com",
+    "project_id": "balotsav-9a271",
+    "storage_bucket": "balotsav-9a271.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541930104889:android:612cecb7911d28bdbfc5e8",
+        "android_client_info": {
+          "package_name": "app.balotsav.com.vvitbalotsav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541930104889-7hfftj7sfp7qcvq84k30q2g1cpsie5o3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.balotsav.com.vvitbalotsav",
+            "certificate_hash": "1c5184c3857e676b9e5ece00e64f12045f487f11"
+          }
+        },
+        {
+          "client_id": "541930104889-ucre74vjer2e3uld49h8kd9mgp0mfbnb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.balotsav.com.vvitbalotsav",
+            "certificate_hash": "9606f739ee6e777f67655998699ec8f7005dea90"
+          }
+        },
+        {
+          "client_id": "541930104889-cbnpd81l0nq5keqapqhpmnuklfl1v5hc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2R7nt_8I12-gyUo_XCKydYRgyCNuuNYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541930104889-cbnpd81l0nq5keqapqhpmnuklfl1v5hc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

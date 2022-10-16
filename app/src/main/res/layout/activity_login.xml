@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/id_login_layout"
+    tools:context=".activities.LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/front_page" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginSmall"
+        android:background="@drawable/background_image"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marginSmall"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/marginSmall"
+                android:layout_weight=".2"
+                android:src="@drawable/logo"
+                tools:ignore="NestedWeights" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_marginRight="@dimen/margin"
+                android:layout_marginBottom="@dimen/marginSmall"
+                android:layout_weight=".1"
+                android:background="@drawable/view_border">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/ic_school_black_24dp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="320dp"
+                    android:layout_height="50dp">
+
+                    <EditText
+                        android:id="@+id/et1"
+                        android:layout_width="320dp"
+                        android:layout_height="52dp"
+                        android:hint="@string/school_code_1"
+                        android:singleLine="true" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_marginRight="@dimen/margin"
+                android:layout_weight=".1"
+                android:background="@drawable/view_border">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_lock_outline_black_24dp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="320dp"
+                    android:layout_height="50dp">
+
+                    <EditText
+                        android:id="@+id/et2"
+                        android:layout_width="320dp"
+                        android:layout_height="52dp"
+                        android:hint="@string/password"
+                        android:inputType="textPassword"
+                        android:nextFocusDown="@id/id_login"
+                        android:singleLine="true" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".2"
+                android:orientation="vertical"
+                >
+                <Button
+                    android:id="@+id/id_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/marginSmall"
+                    android:background="@drawable/mybutton"
+                    android:elevation="@dimen/marginSmall"
+                    android:padding="@dimen/paddingSmall"
+                    android:text="@string/login_button"
+                    android:textColor="@color/solidColor"
+                    android:textSize="@dimen/titleText" />
+
+                <Button
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:layout_marginRight="@dimen/margin"
+                    android:layout_marginBottom="@dimen/margin"
+                    android:id="@+id/id_register"
+                    android:text="@string/new_user_register_here"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/titleText" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/login_slider"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/marginSmall"
+            android:layout_weight=".4"
+            android:background="@drawable/image_border" />
+    </LinearLayout>
+</FrameLayout>

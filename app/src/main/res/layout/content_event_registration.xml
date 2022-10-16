@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.EventRegistrationActivity"
+    tools:showIn="@layout/activity_event_registration">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/front_page" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/padding"
+        android:layout_margin="@dimen/marginSmall"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_image"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/minWidth"
+            android:layout_weight="0.4"
+            app:cardCornerRadius="@dimen/cornerRadiusMax"
+            app:cardElevation="@dimen/cornerRadius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/view_border"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mybutton"
+                    android:gravity="center"
+                    android:text="@string/photo_gallery"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/inputText" />
+
+                <com.daimajia.slider.library.SliderLayout
+                    android:id="@+id/slider_image"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/minWidth"
+            android:layout_weight="0.4"
+            android:background="@drawable/view_border"
+            app:cardCornerRadius="@dimen/cornerRadiusMax"
+            app:cardElevation="@dimen/cornerRadius"
+            app:cardMaxElevation="@dimen/cornerRadiusMax">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/padding"
+                    android:background="@drawable/view_border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/mybutton"
+                        android:gravity="center"
+                        android:text="@string/rules_of_events"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/inputText" />
+
+                    <TextView
+                        android:id="@+id/id_rules_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/minWidth"
+                        android:gravity="start"
+                        android:textAlignment="viewStart" />
+                </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <Button
+            android:id="@+id/id_register_event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:background="@drawable/mybutton"
+            android:elevation="8dp"
+            android:padding="@dimen/padding"
+            android:text="@string/registration"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/titleText" />
+    </LinearLayout>
+</FrameLayout>

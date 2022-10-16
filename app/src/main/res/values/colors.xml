@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ef754e</color>
+    <color name="colorPrimaryDark">#ed5f32</color>
+    <color name="colorAccent">#00BCD4</color>
+
+    <color name="black">#000000</color>
+    <color name="colorBorder">#009688</color>
+    <color name="colorBorderLight">#B2DFDB</color>
+    <color name="colorPrimaryText">#212121</color>
+    #B2DFDB
+    <color name="secondaryText">#F80303</color>
+    <color name="solidColor">#ffffff</color>
+    <color name="grayLight">#F7F6F6</color>
+
+    <color name="vvit_color">#f0806c</color>
+    <color name="vvit_color_heading">#e57c67</color>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="@dimen/margin"
+    android:background="@drawable/dialog_background">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextDialogUserInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:hint="దయచేసి otp ఎంటర్ చేయండి">
+            <requestFocus />
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/id_otp_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/normalText"
+        android:textStyle="italic"
+        android:text="@string/resent_otp_hint"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/id_resent_otp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginSmall"
+            android:layout_marginRight="36dp"
+            android:layout_weight=".5"
+            android:background="@drawable/border_button"
+            android:padding="@dimen/paddingSmall"
+            android:textColor="@color/black"
+            android:text="OTP ను మళ్ళీ పంపు"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/id_otp_ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="@dimen/marginSmall"
+            android:layout_weight=".5"
+            android:background="@drawable/mybutton"
+            android:textColor="@color/black"
+            android:padding="@dimen/paddingSmall"
+            android:text="నమోదు" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.RegisteredEventsFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/front_page" />
+
+    <TextView
+        android:id="@+id/id_noEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/background_image"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="పోటీలకు నమోదు చేసుకోండి "
+        android:textColor="@color/colorPrimary"
+        android:textSize="50sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:layout_margin="@dimen/marginSmall"
+        android:id="@+id/id_events"
+        android:padding="@dimen/marginSmall"
+        android:background="@drawable/background_image"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:scrollbars="vertical"
+            android:fadeScrollbars="true"
+            android:scrollbarThumbVertical="@android:color/darker_gray"
+            android:scrollbarSize="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/id_view_pdf"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginEnd="@dimen/minWidth"
+                android:layout_marginRight="@dimen/minWidth"
+                android:layout_weight="1"
+                android:background="@drawable/mybutton"
+
+                android:text="@string/pdf_view"
+                android:textColor="@color/solidColor" />
+
+            <Button
+                android:id="@+id/id_submit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginStart="@dimen/minWidth"
+                android:layout_marginLeft="@dimen/minWidth"
+                android:layout_weight="1"
+                android:background="@drawable/border_button"
+                android:text="@string/print_email"
+                android:clickable="false"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

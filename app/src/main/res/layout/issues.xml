@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/view_border">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="serif"
+        android:text="@string/contmsg"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/titleText"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="serif"
+        android:layout_margin="5dp"
+        android:text="@string/contact_chand"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/normalText"
+         />
+</LinearLayout>
