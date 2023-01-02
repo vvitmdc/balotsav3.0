@@ -121,6 +121,12 @@
         <item>Mr. Devendar Reddy Tamma</item>
         <item>Mr. Venkata Reddy Seelam</item>
     </array>
+    <array name="develop_team3">
+        <item>Ms. Sri Vidya</item>
+        <item>Mr. Fayazuddin</item>
+        <item>Mr. Chaitanya</item>
+    </array>
+
     <string name="designers"><u>Design Team</u></string>
 
     <string name="contmsg"><u>For Any Technical Issues</u></string>
