@@ -3,6 +3,8 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fe8c8023932f635fcde6fc094ed614f3/transformed/jetified-constraintlayout-compose-1.0.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fe8c8023932f635fcde6fc094ed614f3/transformed/jetified-constraintlayout-compose-1.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/36ea53bd32598e1f74285437f46ecc0f/transformed/jetified-constraintlayout-compose-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/36ea53bd32598e1f74285437f46ecc0f/transformed/jetified-constraintlayout-compose-1.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

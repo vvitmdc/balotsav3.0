@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c5392af0f9dc2d8708b3fd405b4d1f52/transformed/jetified-android-pdf-viewer-2.8.2/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c5392af0f9dc2d8708b3fd405b4d1f52/transformed/jetified-android-pdf-viewer-2.8.2/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c5392af0f9dc2d8708b3fd405b4d1f52/transformed/jetified-android-pdf-viewer-2.8.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dd8605f6465836008802707048c1a30d/transformed/jetified-android-pdf-viewer-2.8.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dd8605f6465836008802707048c1a30d/transformed/jetified-android-pdf-viewer-2.8.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/dd8605f6465836008802707048c1a30d/transformed/jetified-android-pdf-viewer-2.8.2/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.barteksc/android-pdf-viewer/2.8.2/23303ed2c4972d3268a9bfd5d91a30752028401/android-pdf-viewer-2.8.2-javadoc.jar!/" />
