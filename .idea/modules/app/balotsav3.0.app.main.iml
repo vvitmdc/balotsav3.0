@@ -60,10 +60,10 @@
     <orderEntry type="library" name="Gradle: com.nineoldandroids:library:2.4.0" level="project" />
     <orderEntry type="library" name="Gradle: com.github.bumptech.glide:disklrucache:4.14.2" level="project" />
     <orderEntry type="library" name="Gradle: com.github.bumptech.glide:annotations:4.14.2" level="project" />
-    <orderEntry type="library" name="Gradle: ./app/libs/mail.jar" level="project" />
-    <orderEntry type="library" name="Gradle: ./app/libs/YouTubeAndroidPlayerApi.jar" level="project" />
-    <orderEntry type="library" name="Gradle: ./app/libs/activation.jar" level="project" />
-    <orderEntry type="library" name="Gradle: ./app/libs/additionnal.jar" level="project" />
+    <orderEntry type="library" name="Gradle: C" level="project" />
+    <orderEntry type="library" name="Gradle: C (1)" level="project" />
+    <orderEntry type="library" name="Gradle: C (2)" level="project" />
+    <orderEntry type="library" name="Gradle: C (3)" level="project" />
     <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.5.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.activity:activity:1.5.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.core:core:1.8.0@aar" level="project" />
